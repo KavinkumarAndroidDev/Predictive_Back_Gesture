@@ -63,7 +63,6 @@ fun TaskView(
 
     val density = LocalDensity.current
 
-
     val onBackCallback = remember {
         object : OnBackPressedCallback(true) {
             override fun handleOnBackProgressed(backEvent: BackEventCompat) {
